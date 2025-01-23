@@ -1,0 +1,13 @@
+Execute the code with the below command 
+npx playwright test --headed
+
+This test case will select a product on home page
+click on it
+redirects to the selected product page
+adds the product to cart
+Clicks on Go to cart
+Checks the grand total and value
+
+
+Right now I added only one test case so we can also use the command:
+npx playwright test shopify-test.spec.js
